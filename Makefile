@@ -20,10 +20,6 @@ unexport LC_ALL
 LC_COLLATE=C
 LC_NUMERIC=C
 export LC_COLLATE LC_NUMERIC
-CFLAGS += -Wno-unused-label \
-    -Wno-unused-function \
-    -Wno-unused-parameter \
-    -Wno-unused-variable
 # Avoid interference with shell env settings
 unexport GREP_OPTIONS
 
